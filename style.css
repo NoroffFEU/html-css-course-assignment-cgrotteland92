@@ -321,7 +321,10 @@ input, select, textarea {
 
 /*JavaScript Assignment*/
 
-#product-list {
+.loading-indicator {
+    display: none;
+}
+    #product-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

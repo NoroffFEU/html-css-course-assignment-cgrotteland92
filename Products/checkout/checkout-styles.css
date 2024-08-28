@@ -182,8 +182,6 @@ footer{
 
 /* JavaScript Assignment*/
 
-/* Example styles for checkout page */
-
 #checkout-cart-list .cart-item {
     display: flex;
     justify-content: space-between;
