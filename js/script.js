@@ -8,11 +8,12 @@ async function fetchAllProducts() {
     loadingIndicator.style.display = "block";
 
     const response = await fetch(apiUrl);
-    console.log("Response status:", response.status);
+
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     products = await response.json();
+
     populateGenreDropdown(products);
     displayProducts(products);
   } catch (error) {
@@ -25,6 +26,7 @@ async function fetchAllProducts() {
 
 function populateGenreDropdown(products) {
   const genreDropdown = document.getElementById("genre-dropdown");
+  genreDropdown.innerHTML = `<option value="all">All Genres</option>`;
   const genres = new Set(products.map((product) => product.genre));
   genres.forEach((genre) => {
     const option = document.createElement("option");
@@ -72,7 +74,6 @@ function displayProducts(products) {
 }
 
 function addToCart(productId) {
-  console.log("Adding to cart:", productId);
   const product = products.find((product) => product.id === productId);
   if (!product) {
     console.error("Product not found:", productId);
@@ -94,13 +95,11 @@ function addToCart(productId) {
     cart.push({ product, quantity: 1 });
   }
 
-  console.log("Current cart:", cart);
   displayCart();
   saveCart();
 }
 
 function removeFromCart(productId) {
-  console.log("Removing from cart:", productId);
   cart = cart.filter((cartItem) => cartItem.product.id !== productId);
   displayCart();
   saveCart();
