@@ -31,7 +31,7 @@ async function fetchAndDisplayProductDetails(productId) {
         ${product.rating}
       </p>
       <p>${product.released}</p>
-      ${priceInfo} <!-- Inserted the dynamic price info here -->
+      ${priceInfo} 
       <p>${product.description}</p>
     `;
   } catch (error) {
