@@ -45,4 +45,4 @@ npm run start
 
 ## Contact
 
-[My LinkedIn page]https://www.linkedin.com/in/christian-gr%C3%B8tteland-0408372aa/
+My LinkedIn page https://www.linkedin.com/in/christian-gr%C3%B8tteland-0408372aa/
