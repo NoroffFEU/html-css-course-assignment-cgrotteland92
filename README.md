@@ -1,34 +1,48 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13927454&assignment_repo_type=AssignmentRepo)
-# HTML & CSS Course Assignment
+# Square Eyes
 
-## Brief
+## Description
 
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+My first HTML and CSS Project, a movie webpage where you can buy movies. JavaScript was added on a later date when I was doing my first JavaScript assignment.
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+- Sort movies by genre
+- Add and delete product from shopping cart
+- Checkout and recieve confirmation message
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique `<meta name="description">`, `<title>`, and `<h1>`.
-- You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+## Built With
 
-## Process
+- HTML
+- CSS
+- JavaScript
 
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries, flex or grid to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. When your site is ready, post it on the Teams peer review channel.
-8. Look at the work of your peers and write a review for them.
-9. Make adjustments based on the feedback you gather from peers and teachers.
-10. Submit here on Teams.
+## Getting Started
 
-## Delivery
+### Installing
 
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
+
+## Contact
+
+[My LinkedIn page]https://www.linkedin.com/in/christian-gr%C3%B8tteland-0408372aa/
